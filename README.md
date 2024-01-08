@@ -56,7 +56,7 @@ The individual C code of the components as well as the entire systems firmware a
 
 ### Post-Processing sensor data:
 
-After retreiving the data from the device errors and noise have to be addressed, for which there is a seperate repository where I have mention the different methodologies and filers used in Python for the post-processing process. 
+After retreiving the data from the device errors and noise have to be addressed, for which there is a [seperate repository](https://github.com/Yadnik1/MEMS-IMU-noise-analysis/tree/master) where I have mentioned the different methodologies and filers used in Python for the post-processing process. 
 
 ## Usage
 To operate the device:
