@@ -9,8 +9,14 @@ In India, the lack of differentiated underwriting for vehicle insurance fails to
 ## Power Management
 The telematics device is powered via a car charger and carefully manages power to support the Raspberry Pi Pico and various sensors. A specialized LDO IC (AZ1117CD) ensures stable voltage for optimal component performance.
 
+#### Power Management Flowchart
+![Power Management Flowchart](images/image1.png)
+
 ## Interfacing Components
 Components such as an OLED display, 6DOF IMU, GPS module, and environmental sensors interface with the microcontroller, providing real-time data logging on vehicle behavior and environmental conditions.
+
+#### Interfacing Components Flowchart
+![Setup to study Variability in sensors](images/image2.png)
 
 ## Data Storage
 Data is logged onto a micro SD card in CSV format, allowing for extensive data analysis and application in developing insurance models.
