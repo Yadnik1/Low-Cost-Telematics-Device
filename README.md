@@ -18,6 +18,9 @@ Components such as an OLED display, 6DOF IMU, GPS module, and environmental sens
 #### Interfacing Components Flowchart
 ![Setup to study Variability in sensors](images/image2.png)
 
+#### Components Selection and Planning
+![Setup to study Variability in sensors](images/image6.jpeg)
+
 ## Data Storage
 Data is logged onto a micro SD card in CSV format, allowing for extensive data analysis and application in developing insurance models.
 
