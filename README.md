@@ -23,13 +23,13 @@ All the project planning was done from ground up and all the documentaion of the
 ### Component Selection
 The component selection for the project was done by benchmarking the STEVAL-STWINKT1B industrial node with the VBOX IMU in real world conditions.
 #### Benchmarking setup 
+![Setup to study Variability in sensors](images/image18.png)
+Additional indoor tests were also done by making a setup by laser cutting an acryclic sheet and mounting 5 industrial nodes on it to understand the sensor Systematic Errors and Random Errors in the sensors.
+
+#### Setup to study Variability in sensors
 ![Benchmarking setup ](images/Final.gif)
 
 ![Benchmarking setup ](images/image13.jpeg)
-Additional indoor tests were also done by making a setup by laser cutting an acryclic sheet and mounting 5 industrial nodes on it to understand the sensor Systematic Errors and Random Errors in the sensors.
-#### Setup to study Variability in sensors
-![Setup to study Variability in sensors](images/image18.png)
-
 ### Designing Breakout boards and Printed Circuit Boards
 
 1) The project involved the use of AECQ100 grade IMU and Temperature and Humidity sensors (SHT30A)  sensors for which custom breakout boards had to be created in KiCAD and hold soldered:
