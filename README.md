@@ -54,9 +54,16 @@ Additional indoor tests were also done by making a setup by laser cutting an acr
 The firmware for the device was written by using the Raspberry Pi Pico as the Microcontroller in C.
 The individual C code of the components as well as the entire systems firmware along with the CMAKE files can be seen in the [Firmware folder](Firmware/).
 
-### Post-Processing sensor data:
+#### Firmware Development and Validation 
+![Firmware Development and Validation ](images/image7.jpeg)
 
-After retreiving the data from the device errors and noise have to be addressed, for which there is a [seperate repository](https://github.com/Yadnik1/MEMS-IMU-noise-analysis/tree/master) where I have mentioned the different methodologies and filers used in Python for the post-processing process. 
+<p float="left">
+  <img src="images/image8.jpeg" width="48%" />
+  <img src="images/image9.jpeg" width="48%" /> 
+</p>
+
+
+After retreiving the data from the device, errors and noise have to be addressed, for which there is a [seperate repository](https://github.com/Yadnik1/MEMS-IMU-noise-analysis/tree/master) where I have mentioned the different methodologies and filers used in Python for the post-processing process. 
 
 ## Usage
 To operate the device:
