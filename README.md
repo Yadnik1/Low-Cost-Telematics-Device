@@ -34,7 +34,7 @@ Additional indoor tests were also done by making a setup by laser cutting an acr
 #### Breakout Board PCB of AEC-Q100 compliant 6-DOF IMU ASM330LHHXTR
 ![PCB of the Encoder Unit](images/image5.png)
 #### Fabricated Breakout Boards with IC
-![PCB of the Encoder Unit](images/image12.jpeg)
+![PCB of the Encoder Unit](images/image17.png)
 
 2) The PCB of the device was a 2 layered PCB developed using KiCAD consisting of the sensor subsytem on the top layer and power circuitry at the bottom:
 #### PCB of Low cost Telematics device
