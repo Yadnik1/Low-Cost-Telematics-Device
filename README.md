@@ -25,7 +25,7 @@ The component selection for the project was done by benchmarking the STEVAL-STWI
 #### Benchmarking setup 
 ![Benchmarking setup ](images/Final.gif)
 
-![Benchmarking setup ](images/image13.png)
+![Benchmarking setup ](images/image13.jpeg)
 Additional indoor tests were also done by making a setup by laser cutting an acryclic sheet and mounting 5 industrial nodes on it to understand the sensor Systematic Errors and Random Errors in the sensors.
 #### Setup to study Variability in sensors
 ![Setup to study Variability in sensors](images/image4.png)
