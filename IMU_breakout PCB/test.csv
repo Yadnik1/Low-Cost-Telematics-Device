@@ -1,0 +1,5 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C2,C1";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";2;"100n";;;
+2;"U1";"ASM330LHHX";1;"ASM330LHHX";;;
+3;"J1,J2";"PinHeader_1x07_P2.54mm_Vertical";2;"Conn_01x07";;;
+4;"C3";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";1;"10u";;;
