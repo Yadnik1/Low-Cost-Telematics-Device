@@ -7,10 +7,10 @@ This repository details the development of a low-cost telematics device aimed at
 In India, the lack of differentiated underwriting for vehicle insurance fails to consider individual driving patterns and vehicle usage. With over 210 million registered vehicles, the opportunity to tailor insurance policies to driving behavior represents a significant untapped market. This device aims to incentivize safer driving and provide accurate data to support insurance claims and reduce fraud.
 
 ## Power Management
-The telematics device is powered via a car charger and carefully manages power to support the Raspberry Pi Pico and various sensors. A specialized IC ensures stable voltage for optimal component performance.
+The telematics device is powered via a car charger and carefully manages power to support the Raspberry Pi Pico and various sensors. A specialized LDO IC (AZ1117CD) ensures stable voltage for optimal component performance.
 
 ## Interfacing Components
-Components such as an OLED display, 6DOF IMU, GPS module, and environmental sensors interface with the microcontroller, providing real-time data on vehicle behavior and environmental conditions.
+Components such as an OLED display, 6DOF IMU, GPS module, and environmental sensors interface with the microcontroller, providing real-time data logging on vehicle behavior and environmental conditions.
 
 ## Data Storage
 Data is logged onto a micro SD card in CSV format, allowing for extensive data analysis and application in developing insurance models.
@@ -29,6 +29,12 @@ Additional indoor tests were also done by making a setup by laser cutting an acr
 ### Designing Breakout boards and Printed Circuit Boards
 
 1) The project involved the use of AECQ100 grade IMU and Temperature and Humidity sensors (SHT30A)  sensors for which custom breakout boards had to be created in KiCAD and hold soldered:
+#### Breakout Board PCB of AEC-Q100 compliant SHT-30A Temperature and Humidity Sensor
+![PCB of the Encoder Unit](images/image4.png)
+#### Breakout Board PCB of AEC-Q100 compliant 6-DOF IMU ASM330LHHXTR
+![PCB of the Encoder Unit](images/image5.png)
+#### Fabricated Breakout Boards with IC
+![PCB of the Encoder Unit](images/image12.jpeg)
 
 2) The PCB of the device was a 2 layered PCB developed using KiCAD consisting of the sensor subsytem on the top layer and power circuitry at the bottom:
 #### PCB of Low cost Telematics device
