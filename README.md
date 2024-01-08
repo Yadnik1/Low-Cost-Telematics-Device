@@ -52,7 +52,7 @@ Additional indoor tests were also done by making a setup by laser cutting an acr
 ### Developing firmware:
 
 The firmware for the device was written by using the Raspberry Pi Pico as the Microcontroller in C.
-The individual C code of the components as well as the entire systems firmware along with the CMAKE files can be seen in the Firmware folder[Firmware folder](Firmware/).
+The individual C code of the components as well as the entire systems firmware along with the CMAKE files can be seen in the [Firmware folder](Firmware/).
 
 ### Post-Processing sensor data:
 
