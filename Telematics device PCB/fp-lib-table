@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "SC0915")(type "KiCad")(uri "${KIPRJMOD}/SC0915.pretty")(options "")(descr ""))
+  (lib (name "Push button")(type "KiCad")(uri "${KIPRJMOD}/Push button.pretty")(options "")(descr ""))
+  (lib (name "SPDT switch")(type "KiCad")(uri "${KIPRJMOD}/SPDT switch.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "sc0915")(type "KiCad")(uri "${KIPRJMOD}/sc0915.kicad_sym")(options "")(descr ""))
+  (lib (name "AZ1117CD-3.3TRG1")(type "KiCad")(uri "${KIPRJMOD}/AZ1117CD-3.3TRG1.kicad_sym")(options "")(descr ""))
+)
