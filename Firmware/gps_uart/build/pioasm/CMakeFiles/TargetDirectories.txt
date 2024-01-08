@@ -1,0 +1,3 @@
+C:/Users/acer/Documents/Raspberry pi pico/gps_uart/build/pioasm/CMakeFiles/pioasm.dir
+C:/Users/acer/Documents/Raspberry pi pico/gps_uart/build/pioasm/CMakeFiles/edit_cache.dir
+C:/Users/acer/Documents/Raspberry pi pico/gps_uart/build/pioasm/CMakeFiles/rebuild_cache.dir
