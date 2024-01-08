@@ -28,7 +28,7 @@ Additional indoor tests were also done by making a setup by laser cutting an acr
 
 ### Designing Breakout boards and Printed Circuit Boards
 
-1) The project involved the use of AECQ100 grade IMU and Temperature and Humidity sensors (SHT30A)  sensors for which custom breakout boards had to be created in KiCAD:
+1) The project involved the use of AECQ100 grade IMU and Temperature and Humidity sensors (SHT30A)  sensors for which custom breakout boards had to be created in KiCAD and hold soldered:
 
 2) The PCB of the device was a 2 layered PCB developed using KiCAD consisting of the sensor subsytem on the top layer and power circuitry at the bottom:
 
