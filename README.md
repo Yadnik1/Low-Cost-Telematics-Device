@@ -27,7 +27,7 @@ Data is logged onto a micro SD card in CSV format, allowing for extensive data a
 # Development
 
 ### Documentation and Project Planning
-All the project planning was done from ground up and all the documentaion of the project can be seen in the documentation folder:
+All the project planning was done from ground up and all the documentaion of the project can be seen in the [Documentation folder](Documentation/).
 
 ### Component Selection
 The component selection for the project was done by benchmarking the STEVAL-STWINKT1B industrial node with the VBOX IMU in real world conditions.
