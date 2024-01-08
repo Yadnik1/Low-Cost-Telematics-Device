@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\acer\Documents\SHT30_breakout\SHT30_breakout.kicad_sch</source>
+    <date>13-10-2022 17:03:26</date>
+    <tool>Eeschema (6.0.6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SHT30_breakout.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SHT30_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3cf18d0-d14f-4759-834b-dba6af249217</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>SHT30A-DIS-B2.5KS</value>
+      <footprint>SHT30A-DIS-B2:SON50P250X250X100-9N-D</footprint>
+      <datasheet>https://sensirion.com/media/documents/68C84E66/61641CAE/Sensirion_Humidity_Sensors_SHT3xA_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="Description">Humidity/Temperature Sensor Digital Serial (I2C) Automotive 8-Pin DFN EP T/R</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Sensirion</field>
+        <field name="Manufacturer_Part_Number">SHT30A-DIS-B2.5KS</field>
+        <field name="Mouser Part Number">403-SHT30ADIS-B2.5KS</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Sensirion/SHT30A-DIS-B2.5KS?qs=vHuUswq2%252BswKlkedscwYEA%3D%3D</field>
+      </fields>
+      <libsource lib="SHT30A-DIS-B2.5KS" part="SHT30A-DIS-B2.5KS" description="Humidity/Temperature Sensor Digital Serial (I2C) Automotive 8-Pin DFN EP T/R"/>
+      <property name="Description" value="Humidity/Temperature Sensor Digital Serial (I2C) Automotive 8-Pin DFN EP T/R"/>
+      <property name="Height" value="1"/>
+      <property name="Manufacturer_Name" value="Sensirion"/>
+      <property name="Manufacturer_Part_Number" value="SHT30A-DIS-B2.5KS"/>
+      <property name="Mouser Part Number" value="403-SHT30ADIS-B2.5KS"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Sensirion/SHT30A-DIS-B2.5KS?qs=vHuUswq2%252BswKlkedscwYEA%3D%3D"/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Mouser Testing Part Number" value=""/>
+      <property name="Mouser Testing Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SHT30_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c221d2db-5401-483d-9041-830b973644e3</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SHT30_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea78c905-91f9-4381-ad60-80fee90bd78f</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SHT30_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50738008-0886-4d6e-90f8-ec0769c176dc</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SHT30_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ade3943f-b029-438b-93da-f2dd62cff2a6</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SHT30_breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4ebd72c-589a-4660-b238-a5b451c00eb1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SHT30A-DIS-B2.5KS" part="SHT30A-DIS-B2.5KS">
+      <description>Humidity/Temperature Sensor Digital Serial (I2C) Automotive 8-Pin DFN EP T/R</description>
+      <docs>https://sensirion.com/media/documents/68C84E66/61641CAE/Sensirion_Humidity_Sensors_SHT3xA_Datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">SHT30A-DIS-B2.5KS</field>
+        <field name="Footprint">SON50P250X250X100-9N-D</field>
+        <field name="Datasheet">https://sensirion.com/media/documents/68C84E66/61641CAE/Sensirion_Humidity_Sensors_SHT3xA_Datasheet.pdf</field>
+        <field name="Description">Humidity/Temperature Sensor Digital Serial (I2C) Automotive 8-Pin DFN EP T/R</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Sensirion</field>
+        <field name="Manufacturer_Part_Number">SHT30A-DIS-B2.5KS</field>
+        <field name="Mouser Part Number">403-SHT30ADIS-B2.5KS</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Sensirion/SHT30A-DIS-B2.5KS?qs=vHuUswq2%252BswKlkedscwYEA%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="passive"/>
+        <pin num="2" name="ADDR" type="passive"/>
+        <pin num="3" name="ALERT" type="passive"/>
+        <pin num="4" name="SCL" type="passive"/>
+        <pin num="5" name="VDD" type="passive"/>
+        <pin num="6" name="NRESET" type="passive"/>
+        <pin num="7" name="R" type="passive"/>
+        <pin num="8" name="VSS" type="passive"/>
+        <pin num="9" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="SHT30A-DIS-B2.5KS">
+      <uri>C:\Users\acer\Documents\Kicad Libraries\SHT30A-DIS-B2.5KS\SHT30A-DIS-B2.5KS.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="ADDR" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="R" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC1" pin="9" pinfunction="EP" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="VDD" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1" pinfunction="SDA" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(IC1-Pad4)">
+      <node ref="IC1" pin="4" pinfunction="SCL" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="unconnected-(IC1-Pad3)">
+      <node ref="IC1" pin="3" pinfunction="ALERT" pintype="passive+no_connect"/>
+    </net>
+    <net code="6" name="unconnected-(IC1-Pad6)">
+      <node ref="IC1" pin="6" pinfunction="NRESET" pintype="passive+no_connect"/>
+    </net>
+    <net code="7" name="unconnected-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="8" name="unconnected-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
